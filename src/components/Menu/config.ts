@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://ec2-34-222-105-89.us-west-2.compute.amazonaws.com:3000/#/swap',
+        href: 'https://app.sweetswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'http://ec2-34-222-105-89.us-west-2.compute.amazonaws.com:3000/#/pool',
+        href: 'https://app.sweetswap.finance/#/pool',
       },
     ],
   },
@@ -59,27 +59,25 @@ const config: MenuEntry[] = [
   //     },
   //   ],
 //  },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: '/',
-      },
-      {
-        label: 'Tokens',
-        href: '/',
-      },
-      {
-        label: 'Pairs',
-        href: '/',
-      },
-      {
-        label: 'Accounts',
-        href: '/',
-      },
-    ],
+    {
+      label: 'More',
+      icon: 'MoreIcon',
+      items: [
+        
+        {
+          label: 'Github',
+          href: 'https://github.com/SweetSwap',
+        },
+        {
+          label: 'Docs',
+          href: 'https://medium.com/@SweetSwap',
+        },
+        {
+          label: 'Blog',
+          href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
+        },
+      ],
+    
   },
   // {
   //   label: 'IFO',
