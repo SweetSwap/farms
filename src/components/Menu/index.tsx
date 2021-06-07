@@ -26,7 +26,7 @@ const Menu = (props) => {
       toggleTheme={toggleTheme}
       currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
-      setLang={setSelectedLanguage}
+     // setLang={setSelectedLanguage}
       cakePriceUsd= {cakePriceUsd}
       links={config}
       profile={{
