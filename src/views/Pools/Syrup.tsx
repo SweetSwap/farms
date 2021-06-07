@@ -45,7 +45,7 @@ const Farm: React.FC = () => {
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
           </ul>
         </div>
-        <img src="/images/syrup.png" alt="Candy POOL icon" width={410} height={191} />
+        {/* <img src="/images/syrup.png" alt="Candy POOL icon" width={410} height={191} /> */}
       </Hero>
       <PoolTabButtons stackedOnly={stackedOnly} setStackedOnly={setStackedOnly} />
       <Divider />

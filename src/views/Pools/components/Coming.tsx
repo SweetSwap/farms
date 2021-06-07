@@ -35,7 +35,7 @@ const Coming: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
-    <Card>
+    <Card style={{display:'none'}}>
       <div style={{ padding: '24px' }}>
         <CardTitle>
           {TranslateString(414, 'Your Project?')}{' '}
